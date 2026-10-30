@@ -83,7 +83,7 @@ def download_full_frontend(target_url, output_dir="site_data"):
         with open(index_path, "w", encoding="utf-8") as f:
             f.write(soup.prettify())
 
-        print(f"\n[✔] Sayfa tüm kaynaklarıyla birlikte 'C:\\Users\\k7\\{output_dir}' klasörüne indirildi!")
+        print(f"\n[✔] Sayfa tüm kaynaklarıyla birlikte 'C:\\Users\\User Name\\{output_dir}' klasörüne indirildi!")
         browser.close()
 
 if __name__ == "__main__":
